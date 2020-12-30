@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Blog 部落格
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Blog 部落格](https://imgur.com/kVCO1h8.png)
+Blog 部落格，實現會員註冊登入機制，身為會員即可新增、編輯、刪除文章。且文章列表專區有分頁功能，一頁可查看 5 篇文章。
 
-## Available Scripts
+# DEMO - 專案展示
 
-In the project directory, you can run:
+[Blog 部落格](https://ivymuchacha.github.io/redux-blog/#/)
 
-### `yarn start`
+## Features - 功能
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. 註冊會員
+2. 登入會員
+3. 新增文章
+4. 編輯文章
+5. 刪除文章
+6. 文章列表分頁顯示
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Technical Skills - 使用哪些技術實作專案
 
-### `yarn test`
+1. Create React App - 快速建立專案項目環境
+2. React hooks - 狀態管理與建立 UI 元件
+3. React Redux - 更有預測的管理 state 的變化
+4. React Router - 路由管理
+5. styled-components - 輕鬆建立 CSS-in-JS 的 UI 元件
+6. fetch - 與後端 API 資料交換
+7. LocalStorage - 儲存身份認證的 JWT
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Declaration - 聲明
 
-### `yarn build`
+本作品純粹為個人練習前端使用，不做任何商業用途。
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Installing - 專案安裝流程
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. clone this repository
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+git clone https://github.com/ivymuchacha/redux-blog.git
+```
 
-### `yarn eject`
+2. 安裝套件
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
+npm install
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. 在本地端開啟此專案
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+npm run start
+```
